@@ -3,6 +3,7 @@ import {getFlagValue} from "@app/flagsmithClient";
 
 export default function NavBar() {
   const pluginA = getFlagValue("plugin_a");
+  const pluginB = getFlagValue("plugin_b");
 
   return (
     <header>
@@ -31,6 +32,12 @@ export default function NavBar() {
                     <Link className="nav-link" to="/help">Hilfe</Link>
                   </li>
                 </>
+              }
+
+              {pluginB &&
+                <li className="nav-item">
+                  <Link className="nav-link" to="/admin">Admin</Link>
+                </li>
               }
             </ul>
           </div>

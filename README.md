@@ -8,6 +8,8 @@ the system should allow/disallow certain features.
 For the implementation of the plugins, we are using FlagSmith with is an open source feature flagging service.
 It allows us to configure different features for different customers.
 
+You add a `.env` file for the environment variables. Copy the `.env.example` file and add your own values.
+
 ## Run the app in development mode
 `yarn run dev`
 

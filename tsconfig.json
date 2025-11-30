@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "moduleResolution": "bundler",
     "module": "ESNext",
-    "target": "ESNext",
+    "paths": {
+      "@app/*": [
+        "src/*"
+      ]
+    },
+    "target": "ESNext"
   },
   "files": [],
   "references": [

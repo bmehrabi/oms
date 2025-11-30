@@ -14,3 +14,8 @@ It allows us to configure different features for different customers.
 ## Build the app for production
 `yarn run build`
 
+## Run the tests
+`yarn test`
+
+## Run the tests with coverage
+`yarn run test:coverage`
